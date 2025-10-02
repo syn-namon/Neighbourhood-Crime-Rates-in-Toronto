@@ -1,7 +1,69 @@
-# Neighbourhood-Crime-Rates-in-Toronto
-Neighbourhood Crime Rates in Toronto from 2014 to 2024, including prediction for 2025
+# Purpose and Overview
+
+In this project I have performed the analysis for the hystoric data of neighbourhood crime rates in Toronto from 2014 to 2024 and forcasting for the crime volume total in 2025 and separately for each neighbourhood. This analysis is processed for better understanding of crime volume trends in Toronto over time in the past and in the future, so connected  departments of police forces could make desisions based on this data in their processes and implement required changes.
+
+# Methodology
+
+## Steps taken:
+
+1. Data Cleaning: Handling missing values, removing inconsistencies, and ensuring data readiness.
+2. Preliminary analysis to identify correlation: Understanding patterns, correlations, and data distribution.
+3. Forcasting model: applying ARIMA model to determine crime volume in Toronto in 2025 in total and per each neighbourhood. Additionally, creating training and test sets and assessing model accuracy.
+4. Visualization: Creating plots using python and Tableau to represent insights and model results.
+5. Conclusion.
+
+## Technical Stack:
+
+### Programming Language:
+
+Python
+
+### Libraries Used:
+
+Numpy: matrix operations
+Pandas: data analysis
+Matplotlib: creating graphs and plots
+Plotly: creating graphs and plots
+Seaborn: enhancing matplotlib plots
+Pmdarima: ARIMA model for predicting analysis
+
+
+### Other tools:
+
+Tableau
+
+# Project Scope
+
+The analysis includes:
+- defining crime volume trend over time in top 3 neighbourhoods;
+- reviling top 10 neighbourhoods with high volume of crimes in total through 11 years;
+- predicting crime volume trend in 2025 in total;
+- forcasting crime volume trend in 2025 for each neighbourhood.
+
+## Description
+
+## Stakeholders
+
+# Data Cleaning
+
+# Analysis
+
+## Model description
+
+## Predictive Power:
+
+## Interpretability:
+
+## Business Value:
+
+## Portfolio Strength:
+
+## Model Performance Summary:
+
+## Prediction Results:
 
 # Visualization
 
-<div class='tableauPlaceholder' id='viz1759290713407' style='position: relative'><noscript><a href='#'><img alt='Dashboard 1 ' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods&#47;Dashboard1&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='site_root' value='' /><param name='name' value='CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods&#47;Dashboard1' /><param name='tabs' value='no' /><param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;Cr&#47;CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods&#47;Dashboard1&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='en-US' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1759290713407');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='827px';} else { vizElement.style.width='100%';vizElement.style.height='727px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+# Conclusion
 
+# Credits and Source
