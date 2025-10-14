@@ -9,7 +9,9 @@
 
 # Purpose and Overview
 
-In this project I have performed the analysis for the hystoric data of neighbourhood crime rates in Toronto from 2014 to 2024 and forcasting for the crime volume total in 2025 and separately for each neighbourhood. This analysis is processed for better understanding of crime volume trends in Toronto over time in the past and in the future, so connected  departments of police forces could make desisions based on this data in their processes and implement required changes.
+This project performs a comprehensive analysis of historic neighborhood crime rates in Toronto spanning from 2014 to 2024. Using this data, the analysis forecasts the total crime volume for 2025, with separate, granular forecasts provided for each neighbourhood.
+
+The core objective is to provide a deeper understanding of crime volume trends over time, offering actionable insights into both past patterns and future projections. The resulting data and forecasts are intended to support communities, connected departments and police forces in making data-driven operational decisions and implementing targeted, necessary resource allocations and strategic changes.
 
 # Methodology
 
@@ -36,21 +38,23 @@ Plotly: creating graphs and plots
 Seaborn: enhancing matplotlib plots
 Pmdarima: ARIMA model for predicting analysis
 
-
 ### Other tools:
 
 Tableau
 
 # Project Scope
 
-The analysis includes:
-- defining crime volume trend over time in top 3 neighbourhoods;
-- reviling top 10 neighbourhoods with high volume of crimes in total through 11 years;
-- predicting crime volume trend in 2025 in total;
-- forcasting crime volume trend in 2025 for each neighbourhood.
+The scope of this comprehensive analysis includes the following components:
+- **Neighbourhood Trends:** Defining the crime volume trend over the eleven years (2014-2024) within the top 3 most active neighbourhoods for each crime type.
+- **Area Ranking:** Identifying and ranking the top 10 neighbourhoods with the highest total volume of crime across all types throughout the entire 11-year dataset.
+- **Total Forecast:** Generating a prediction for the total crime volume for the year 2025 across all of Toronto.
+- **Granular Forecast:** Generating separate, individualized forecasts for the expected crime volume trend in 2025 for each neighbourhood.
 
 ## Description
 
+This project begins with a pre-analysis of historical crime volume data in Toronto spanning 2014 to 2024, which reveals the crime trend across individual neighbourhoods. Using the optimized ARIMA modelling approach, the analysis provides forward-looking predictions for the crime volume trend in 2025, specifically forecasting total volume trends for each major crime type and neighbourhood-level trends.
+
+Model reliability is ensured through rigorous data splitting and the application of industry-standard performance metrics (such as MAE, RMSE, and MAPE) for validation. The output of this analysis is a set of validated forecasts, accompanied by strategic insights and actionable recommendations for all relevant stakeholders.
 ## Stakeholders
 
 ### Government and Law Enforcement:
@@ -74,12 +78,12 @@ The analysis includes:
 
 # Data Cleaning
 
-After reviewing the dataset for common data quality issues — such as missing values, duplicate records, and inconsistent formatting — several adjustments were made. 
-1. I have identified that some column titles consist of name of the crime and year, which is difficult to use for the analysis. I got the list of the unique titles and splitted them into "Crime Type" and "Year" columns using .melt, .split and lambda + pd.Series Python tools. 
-2. I have also excluded "POPULATION" rows from "Crime Type".
-3. The null values vere filled with numberic "0" value using .fillna in order to have all numberic values in the same type of data.
-4. I have checked if dataset includes null values and the amount of such values using .notna method.
-5. In the end, cleened dataframe was grouped by "Crime Type" and "Year".
+After an initial review of the dataset for common data quality issues (including missing values, duplicate records, and inconsistent formatting), the following systematic adjustments were performed:
+1. The original structure contained column headers that mixed crime type and year (e.g., 'ASSAULT_2014'). To facilitate time-series analysis, the dataset was transformed using the .melt() method. This moved all crime-year columns into rows, creating a new DataFrame with a single column for crime values.
+2. The combined column (e.g., ASSAULT_2014) was then split into two distinct, usable features: 'Crime Type' and 'Year', utilizing Python's .split method combined with lambda and pd.Series.
+3. Rows with the non-crime metric 'POPULATION' in the 'Crime Type' column were explicitly excluded from the analysis.
+4. All identified null (NaN) values in the crime volume column were systematically imputed (filled) with the numeric value 0 using the .fillna() method, ensuring data consistency for modelling.
+5. The cleaned and transformed DataFrame was then grouped by the final 'Crime Type' and 'Year' to create the time-series dataset used for all subsequent analysis and forecasting.
 
 #### Tools used:
 - .describe
@@ -98,12 +102,14 @@ After reviewing the dataset for common data quality issues — such as missing v
 Results:
  - No missing values in the dataset;
  - No whitespaces or random symbols in both numeric and categorical columns;
- - Summary statistics for all columns:
- ![Summary statistics for all columns](/img/)
+ - Summary statistics for all columns after cleaning:
+ ![Summary statistics for all columns](/img/Count_crimes_clean.png)
 
- Summary statistics for numerical features:
-   
- ![Summary statistics for numerical features](/img/)
+ - Summary statistics for all columns after .groupby for 'HOOD_ID', 'AREA_NAME' and 'Year':
+ ![Summary statistics for all columns after .groupby for neighbourhood](/img/Crimes_total.png)
+
+ - Summary statistics for all columns after .groupby for 'Crime Type' and 'Year':
+ ![Summary statustics for all columns after .groupby for crime type](/img/Crimes_by_type.png)
 
 # Analysis
 
@@ -127,11 +133,43 @@ The outcome of the analysis and prediction can be valuable in multiple areas and
 
 ## Model Performance Summary:
 
+The model was trained on a train dataset extracted from the total data. For instance, during the experiments of forcsting crime volume per each neighbourhood, some inconsistancy was identified: the accuracy of the model was showing better results with each run without any changes into code or dataset. This is how I found out that model is being trained on a wrong data because of data leakage. Thus, some improvements were made in the code so the model could be trained on a specific data which can show real results for my prediction.
+As the result, the model performance became stable and reproducable:
 
+**Prediction of total crimes for 2025:**
+Train data: 2014 - 2023
+Test data: 2024
+Total MAE: 53.48 units/crimes
+Total RMSE: 53.48 units/crimes
+Total MAPE: 14.71%
 
-## Prediction Results:
+The model performance acciracy is 14.71%, which means it is not perfect and results of the prediction might not be exact but still close to the real ones. The prediction results are off for 53.48 units (crimes in our case) which is still resonable error.
+
+**Prediction of crime volume for 2025 per each neighbourhood:**
+Train data: 2014 - 2023
+Test data: 2024
+Total MAE: 1163.87 units/crimes
+Total RMSE: 1163.87 units/crimes
+Total MAPE: 18.14%
+
+The model performance acciracy is 18.14%, which means it is also not perfect and results of the prediction could be not 100% accurte but still close to the real values. The prediction results are off for 1163.87 units (crimes in our case) which is very segnificant error.
 
 # Visualization
+![Top10 Neighbourhoods with High Volume of Crimes in Total (rate per 100,000 population)](/img/Top10_Neighbourhoods_with_High_Volume_of_Crimes_in_Total_(rate_per_100,000_population).png)
+
+![Top10 Neighbourhoods with High Volume of Crimes in Total](/img/Top10_Neighbourhoods_with_High_Volume_of_Crimes_in_Total.png)
+
+![Predicted Crimes Count for 2025 per Neighbourhood](/img/Predicted_Crimes_Count_for_2025_per_Neighbourhood.png)
+
+![Tableau Dashboard](https://public.tableau.com/views/PredictedCrimesCountfor2025perNeighbourhood/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![Actual Crimes vs. Predicted Crimes for 2024 with MAPE](Actual_Crimes_vs._Predicted_Crimes_for_2024_with_MAPE.png)
+
+![Tableau Dashboard](https://public.tableau.com/views/ActualCrimesvs_PredictedCrimesfor2024withMAPE/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+![Crime Volume Trend Over Time in Toronto (Top 3 Neighbourhoods)](Crime_Volume_Trend_Over_Time_in_Toronto_(Top_3_Neighbourhoods).png)
+
+![Tableau Dashboard](https://public.tableau.com/views/CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # Conclusion
 
