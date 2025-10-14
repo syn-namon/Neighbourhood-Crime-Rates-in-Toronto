@@ -155,21 +155,32 @@ Total MAPE: 18.14%
 The model performance acciracy is 18.14%, which means it is also not perfect and results of the prediction could be not 100% accurte but still close to the real values. The prediction results are off for 1163.87 units (crimes in our case) which is very segnificant error.
 
 # Visualization
+
+**Top10 Neighbourhoods with High Volume of Crimes in Total (rate per 100,000 population)**
+
 ![Top10 Neighbourhoods with High Volume of Crimes in Total (rate per 100,000 population)](/img/Top10_Neighbourhoods_with_High_Volume_of_Crimes_in_Total_(rate_per_100,000_population).png)
+
+**Top10 Neighbourhoods with High Volume of Crimes in Total**
 
 ![Top10 Neighbourhoods with High Volume of Crimes in Total](/img/Top10_Neighbourhoods_with_High_Volume_of_Crimes_in_Total.png)
 
-![Predicted Crimes Count for 2025 per Neighbourhood](/img/Predicted_Crimes_Count_for_2025_per_Neighbourhood.png)
+**Predicted Crimes Count for 2025 per Neighbourhood**
 
-![Tableau Dashboard](https://public.tableau.com/views/PredictedCrimesCountfor2025perNeighbourhood/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+![Predicted Crimes Count for 2025 per Neighbourhood](/img/Predicted_Crimes_Count_for_2025_per_Neighbourhood.png) 
+
+[Tableau Dashboard](https://public.tableau.com/views/PredictedCrimesCountfor2025perNeighbourhood/Sheet1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+**Actual Crimes vs. Predicted Crimes for 2024 with MAPE**
 
 ![Actual Crimes vs. Predicted Crimes for 2024 with MAPE](Actual_Crimes_vs._Predicted_Crimes_for_2024_with_MAPE.png)
 
-![Tableau Dashboard](https://public.tableau.com/views/ActualCrimesvs_PredictedCrimesfor2024withMAPE/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard](https://public.tableau.com/views/ActualCrimesvs_PredictedCrimesfor2024withMAPE/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+
+**Crime Volume Trend Over Time in Toronto (Top 3 Neighbourhoods)**
 
 ![Crime Volume Trend Over Time in Toronto (Top 3 Neighbourhoods)](Crime_Volume_Trend_Over_Time_in_Toronto_(Top_3_Neighbourhoods).png)
 
-![Tableau Dashboard](https://public.tableau.com/views/CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
+[Tableau Dashboard](https://public.tableau.com/views/CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 # Conclusion
 
