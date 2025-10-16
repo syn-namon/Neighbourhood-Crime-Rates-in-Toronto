@@ -17,11 +17,11 @@ The core objective is to provide a deeper understanding of crime volume trends o
 
 ## Steps taken:
 
-1. Data Cleaning: Focused on handling missing values, resolving inconsistencies, and ensuring the final dataset was optimized and ready for time-series analysis.
-2. Preliminary Analysis & Correlation: Conducted to understand crime patterns, identify relationships between variables, and analyze the overall distribution of the data.
-3. Forecasting Model Implementation: Applied the the Autoregressive Integrated Moving Average (ARIMA) model to predict the crime volume for the year 2025 (in total for Toronto per crime type and per neighbourhood). Established dedicated training and testing sets for rigorous model validation. Assessed model accuracy using performance metrics to ensure reliability.
-4. Visualization: Created informative plots and dashboards using Python (Matplotlib/Seaborn) and Tableau to clearly communicate key trends, insights, and model results.
-5. Conclusion: Summarized the findings, provided actionable insights, and offered strategic recommendations for stakeholders.
+1. Data Cleaning: focused on handling missing values, resolving inconsistencies, and ensuring the final dataset was optimized and ready for time-series analysis.
+2. Preliminary Analysis & Correlation: conducted to understand crime patterns, identify relationships between variables, and analyze the overall distribution of the data.
+3. Forecasting Model Implementation: applied the the Autoregressive Integrated Moving Average (ARIMA) model to predict the crime volume for the year 2025 (in total for Toronto per crime type and per neighbourhood). Established dedicated training and testing sets for rigorous model validation. Assessed model accuracy using performance metrics to ensure reliability.
+4. Visualization: created informative plots and dashboards using Python (Matplotlib/Seaborn) and Tableau to clearly communicate key trends, insights, and model results.
+5. Conclusion: summarized the findings, provided actionable insights, and offered strategic recommendations for stakeholders.
 
 ## Technical Stack:
 
@@ -127,9 +127,12 @@ While simple data analysis and visualizations are sufficient to reveal surface-l
 The Autoregressive Integrated Moving Average (ARIMA) model is a popular and powerful statistical method specifically designed for time series forecasting.
 
 This model is particularly beneficial as it combines three distinct processes to capture the underlying structure of the data:
-**Autoregression (AR):** Models the forecasting variable as a function of its own previous, or lagged, values in the time series (the "p" parameter).
-**Integrated (I):** Uses differencing (the "d" parameter) to make the time series stationary, which is a requirement for accurate modelling.
-**Moving Average (MA):** Incorporates the dependency between an observation and a residual error from a moving average model applied to lagged observations (the "q" parameter).
+
+**Autoregression (AR):** models the forecasting variable as a function of its own previous, or lagged, values in the time series (the "p" parameter).
+
+**Integrated (I):** uses differencing (the "d" parameter) to make the time series stationary, which is a requirement for accurate modelling.
+
+**Moving Average (MA):** incorporates the dependency between an observation and a residual error from a moving average model applied to lagged observations (the "q" parameter).
 
 In this project, the ARIMA model is applied to forecast the future crime volume for 2025 based purely on the historical patterns identified within the 2014 – 2024 data period.
 
@@ -142,9 +145,12 @@ In this project, I utilized the Auto-ARIMA function, which automates the configu
 ## Analysis Value:
 
 The outcome of this comprehensive crime trend analysis and forecasting is highly valuable across various sectors and for multiple community groups. By providing clear, data-driven insights, the project empowers better decision-making for:
-**Government and Public Safety:** The results can directly inform police departments on evaluating the success of existing public safety initiatives, optimizing budget allocation for enforcement, and developing targeted crime prevention projects in high-risk areas.
-**Business and Investment:** Businesses can leverage the analysis to predict and evaluate safer areas for new expansion, investment, and operational planning, thereby mitigating potential security risks and protecting assets.
-**Communities and Non-Profits:** Local community groups and non-profit organizations can use the neighbourhood-specific forecasts to strategically plan safety outreach, organize neighbourhood watch programs, and advocate for resources where they are most critically needed.
+
+**Government and Public Safety:** the results can directly inform police departments on evaluating the success of existing public safety initiatives, optimizing budget allocation for enforcement, and developing targeted crime prevention projects in high-risk areas.
+
+**Business and Investment:** businesses can leverage the analysis to predict and evaluate safer areas for new expansion, investment, and operational planning, thereby mitigating potential security risks and protecting assets.
+
+**Communities and Non-Profits:** local community groups and non-profit organizations can use the neighbourhood-specific forecasts to strategically plan safety outreach, organize neighbourhood watch programs, and advocate for resources where they are most critically needed.
 
 ## Model Performance Summary:
 
@@ -153,20 +159,20 @@ A crucial step in the modelling process involved rigorous validation and ensurin
 The final performance of the two primary forecasting models is summarized below, based on predictions for the 2024 test period:
 
 **Total Crime Volume Prediction:**
-Train data: 2014 - 2023
-Test data: 2024
-Total MAE: 53.48 units - The average prediction is off by approximately 53.48 total crimes
-Total RMSE: 53.48 units
-Total MAPE: 14.71% - The prediction is, on average, within 14.71% of the actual total crime volume
+- Train data: 2014 - 2023
+- Test data: 2024
+- Total MAE: 53.48 units - The average prediction is off by approximately 53.48 total crimes
+- Total RMSE: 53.48 units
+- Total MAPE: 14.71% - The prediction is, on average, within 14.71% of the actual total crime volume
 
 The low MAPE of 14.71% for the aggregate forecast indicates a high degree of confidence in the total predicted crime volume.
 
 **Prediction of crime volume for 2025 per each neighbourhood:**
-Train data: 2014 - 2023
-Test data: 2024
-Total MAE: 1163.87 units - The average prediction for an individual neighbourhood is off by approximately 1,164 crimes
-Total RMSE: 1163.87 units
-Total MAPE: 18.14% - The prediction is, on average, within 18.14% of the actual crime volume for that neighbourhood.
+- Train data: 2014 - 2023
+- Test data: 2024
+- Total MAE: 1163.87 units - The average prediction for an individual neighbourhood is off by approximately 1,164 crimes
+- Total RMSE: 1163.87 units
+- Total MAPE: 18.14% - The prediction is, on average, within 18.14% of the actual crime volume for that neighbourhood.
 
 While the raw error (MAE) is higher for individual neighbourhoods, the MAPE of 18.14% still provides a reasonable measure of accuracy, especially considering the higher variability and lower crime volumes often found in individual neighbourhood time series.
 
@@ -204,19 +210,21 @@ This project successfully applied time-series analysis to historical crime data 
 
 ### Key Findings and Model Validation
 During development, a potential data leakage issue was identified and systematically resolved, ensuring that the final performance metrics are stable and the model is reproducible. The resulting performance demonstrates that the forecasting approach is highly effective for aggregate planning:
-**Aggregate total crime forecast:** achieved a Mean Absolute Percentage Error (MAPE) of 14.71%. This high degree of accuracy validates the forecast's use for city-wide budgetary and strategic planning at the highest levels.
-**Per-neighbourhood forecasts:** achieved a MAPE of 18.14%. While the raw error (MAE of 1,164 crimes) is higher, this MAPE is a reasonable result considering the inherently greater variability, lower data volume, and inconsistent patterns within individual neighbourhood time series.
+
+**Aggregate total crime forecast per crime type:** achieved a Mean Absolute Percentage Error (MAPE) of 14.71%. This high degree of accuracy validates the forecast's use for city-wide budgetary and strategic planning at the highest levels.
+
+**Crime volume forecast per neighbourhood:** achieved a MAPE of 18.14%. While the raw error (MAE of 1,164 crimes) is higher, this MAPE is a reasonable result considering the inherently greater variability, lower data volume, and inconsistent patterns within individual neighbourhood time series.
 
 ### Recommendations for Stakeholders
 The generated forecasts provide actionable intelligence that can be directly applied by government, police departments, local businesses, and community organizations:
-**Prioritize the aggregate forecast:** the total crime forecast (14.71% MAPE) should be the primary input for large-scale planning, such as evaluating the success of city-wide public safety policies and optimizing annual police budgets.
-**Use neighbourhood data as a directional tool:** the per-neighbourhood predictions (18.14% MAPE) should be used to guide targeted resource allocation, such as identifying areas for proactive patrol increases or focusing community engagement initiatives where crime is projected to rise.
-**Continuous data enrichment:** while the current model relies only on historical crime counts, integrating these insights with other cross-departmental data (e.g., local events, seasonal factors, or police staffing levels) will strengthen the predictive power.
+- **Prioritize the aggregate forecast:** the total crime forecast (14.71% MAPE) should be the primary input for large-scale planning, such as evaluating the success of city-wide public safety policies and optimizing annual police budgets.
+- **Use neighbourhood data as a directional tool:** the per-neighbourhood predictions (18.14% MAPE) should be used to guide targeted resource allocation, such as identifying areas for proactive patrol increases or focusing community engagement initiatives where crime is projected to rise.
+- **Continuous data enrichment:** while the current model relies only on historical crime counts, integrating these insights with other cross-departmental data (e.g., local events, seasonal factors, or police staffing levels) will strengthen the predictive power.
 
 ### Limitations and Future Work
-The current model's primary limitation is its pure reliance on the crime time series itself. Crime is a complex phenomenon driven by exogenous factors-variables outside of the time series-such as socio-economic indicators (unemployment, housing instability, etc.), and policy changes.
+The current model's primary limitation is its pure reliance on the crime time series itself. Crime is a complex phenomenon driven by exogenous factors-variables outside of the time series-such as socio-economic indicators (unemployment, housing instability, level of education, etc.), and policy changes.
 
-To improve predictive reliability and gain deeper causal insights, future model development should shift toward an ARIMAX framework. This would involve incorporating these external, influencing features as model inputs, thereby enhancing accuracy and providing a more comprehensive understanding of the factors driving Toronto's crime trends.
+To improve predictive reliability and gain deeper insights future model development should shift toward an ARIMAX framework. This would involve incorporating these external, influencing features as model inputs, thereby enhancing accuracy and providing a more comprehensive understanding of the factors driving Toronto's crime trends.
 
 # Credits and Source
 

@@ -395,17 +395,17 @@
 393,39,Bedford Park-Nortown,2022,357.0
 394,39,Bedford Park-Nortown,2023,504.0
 395,39,Bedford Park-Nortown,2024,362.0
-396,40,St.Andrew-Windfields,2014,249.0
-397,40,St.Andrew-Windfields,2015,219.0
-398,40,St.Andrew-Windfields,2016,195.0
-399,40,St.Andrew-Windfields,2017,199.0
-400,40,St.Andrew-Windfields,2018,214.0
-401,40,St.Andrew-Windfields,2019,266.0
-402,40,St.Andrew-Windfields,2020,226.0
-403,40,St.Andrew-Windfields,2021,237.0
-404,40,St.Andrew-Windfields,2022,280.0
-405,40,St.Andrew-Windfields,2023,365.0
-406,40,St.Andrew-Windfields,2024,350.0
+396,40,StAndrew-Windfields,2014,249.0
+397,40,StAndrew-Windfields,2015,219.0
+398,40,StAndrew-Windfields,2016,195.0
+399,40,StAndrew-Windfields,2017,199.0
+400,40,StAndrew-Windfields,2018,214.0
+401,40,StAndrew-Windfields,2019,266.0
+402,40,StAndrew-Windfields,2020,226.0
+403,40,StAndrew-Windfields,2021,237.0
+404,40,StAndrew-Windfields,2022,280.0
+405,40,StAndrew-Windfields,2023,365.0
+406,40,StAndrew-Windfields,2024,350.0
 407,41,Bridle Path-Sunnybrook-York Mills,2014,94.0
 408,41,Bridle Path-Sunnybrook-York Mills,2015,101.0
 409,41,Bridle Path-Sunnybrook-York Mills,2016,103.0
@@ -527,17 +527,17 @@
 525,53,Henry Farm,2022,270.0
 526,53,Henry Farm,2023,319.0
 527,53,Henry Farm,2024,215.0
-528,54,O'Connor-Parkview,2014,373.0
-529,54,O'Connor-Parkview,2015,327.0
-530,54,O'Connor-Parkview,2016,293.0
-531,54,O'Connor-Parkview,2017,244.0
-532,54,O'Connor-Parkview,2018,283.0
-533,54,O'Connor-Parkview,2019,307.0
-534,54,O'Connor-Parkview,2020,273.0
-535,54,O'Connor-Parkview,2021,285.0
-536,54,O'Connor-Parkview,2022,319.0
-537,54,O'Connor-Parkview,2023,294.0
-538,54,O'Connor-Parkview,2024,282.0
+528,54,OConnor-Parkview,2014,373.0
+529,54,OConnor-Parkview,2015,327.0
+530,54,OConnor-Parkview,2016,293.0
+531,54,OConnor-Parkview,2017,244.0
+532,54,OConnor-Parkview,2018,283.0
+533,54,OConnor-Parkview,2019,307.0
+534,54,OConnor-Parkview,2020,273.0
+535,54,OConnor-Parkview,2021,285.0
+536,54,OConnor-Parkview,2022,319.0
+537,54,OConnor-Parkview,2023,294.0
+538,54,OConnor-Parkview,2024,282.0
 539,55,Thorncliffe Park,2014,196.0
 540,55,Thorncliffe Park,2015,181.0
 541,55,Thorncliffe Park,2016,189.0
@@ -714,17 +714,17 @@
 712,70,South Riverdale,2022,678.0
 713,70,South Riverdale,2023,756.0
 714,70,South Riverdale,2024,719.0
-715,71,Cabbagetown-South St.James Town,2014,325.0
-716,71,Cabbagetown-South St.James Town,2015,389.0
-717,71,Cabbagetown-South St.James Town,2016,400.0
-718,71,Cabbagetown-South St.James Town,2017,370.0
-719,71,Cabbagetown-South St.James Town,2018,414.0
-720,71,Cabbagetown-South St.James Town,2019,439.0
-721,71,Cabbagetown-South St.James Town,2020,345.0
-722,71,Cabbagetown-South St.James Town,2021,308.0
-723,71,Cabbagetown-South St.James Town,2022,335.0
-724,71,Cabbagetown-South St.James Town,2023,303.0
-725,71,Cabbagetown-South St.James Town,2024,301.0
+715,71,Cabbagetown-South StJames Town,2014,325.0
+716,71,Cabbagetown-South StJames Town,2015,389.0
+717,71,Cabbagetown-South StJames Town,2016,400.0
+718,71,Cabbagetown-South StJames Town,2017,370.0
+719,71,Cabbagetown-South StJames Town,2018,414.0
+720,71,Cabbagetown-South StJames Town,2019,439.0
+721,71,Cabbagetown-South StJames Town,2020,345.0
+722,71,Cabbagetown-South StJames Town,2021,308.0
+723,71,Cabbagetown-South StJames Town,2022,335.0
+724,71,Cabbagetown-South StJames Town,2023,303.0
+725,71,Cabbagetown-South StJames Town,2024,301.0
 726,72,Regent Park,2014,270.0
 727,72,Regent Park,2015,271.0
 728,72,Regent Park,2016,275.0
@@ -747,17 +747,17 @@
 745,73,Moss Park,2022,1012.0
 746,73,Moss Park,2023,1104.0
 747,73,Moss Park,2024,1025.0
-748,74,North St.James Town,2014,427.0
-749,74,North St.James Town,2015,432.0
-750,74,North St.James Town,2016,453.0
-751,74,North St.James Town,2017,386.0
-752,74,North St.James Town,2018,424.0
-753,74,North St.James Town,2019,515.0
-754,74,North St.James Town,2020,487.0
-755,74,North St.James Town,2021,417.0
-756,74,North St.James Town,2022,410.0
-757,74,North St.James Town,2023,459.0
-758,74,North St.James Town,2024,490.0
+748,74,North StJames Town,2014,427.0
+749,74,North StJames Town,2015,432.0
+750,74,North StJames Town,2016,453.0
+751,74,North StJames Town,2017,386.0
+752,74,North StJames Town,2018,424.0
+753,74,North StJames Town,2019,515.0
+754,74,North StJames Town,2020,487.0
+755,74,North StJames Town,2021,417.0
+756,74,North StJames Town,2022,410.0
+757,74,North StJames Town,2023,459.0
+758,74,North StJames Town,2024,490.0
 759,78,Kensington-Chinatown,2014,1230.0
 760,78,Kensington-Chinatown,2015,1259.0
 761,78,Kensington-Chinatown,2016,1262.0
@@ -945,17 +945,17 @@
 943,96,Casa Loma,2022,148.0
 944,96,Casa Loma,2023,186.0
 945,96,Casa Loma,2024,168.0
-946,97,Yonge-St.Clair,2014,76.0
-947,97,Yonge-St.Clair,2015,83.0
-948,97,Yonge-St.Clair,2016,86.0
-949,97,Yonge-St.Clair,2017,66.0
-950,97,Yonge-St.Clair,2018,99.0
-951,97,Yonge-St.Clair,2019,123.0
-952,97,Yonge-St.Clair,2020,111.0
-953,97,Yonge-St.Clair,2021,137.0
-954,97,Yonge-St.Clair,2022,151.0
-955,97,Yonge-St.Clair,2023,147.0
-956,97,Yonge-St.Clair,2024,132.0
+946,97,Yonge-StClair,2014,76.0
+947,97,Yonge-StClair,2015,83.0
+948,97,Yonge-StClair,2016,86.0
+949,97,Yonge-StClair,2017,66.0
+950,97,Yonge-StClair,2018,99.0
+951,97,Yonge-StClair,2019,123.0
+952,97,Yonge-StClair,2020,111.0
+953,97,Yonge-StClair,2021,137.0
+954,97,Yonge-StClair,2022,151.0
+955,97,Yonge-StClair,2023,147.0
+956,97,Yonge-StClair,2024,132.0
 957,98,Rosedale-Moore Park,2014,344.0
 958,98,Rosedale-Moore Park,2015,308.0
 959,98,Rosedale-Moore Park,2016,312.0
@@ -1154,28 +1154,28 @@
 1152,116,Steeles,2022,171.0
 1153,116,Steeles,2023,174.0
 1154,116,Steeles,2024,154.0
-1155,118,Tam O'Shanter-Sullivan,2014,273.0
-1156,118,Tam O'Shanter-Sullivan,2015,281.0
-1157,118,Tam O'Shanter-Sullivan,2016,264.0
-1158,118,Tam O'Shanter-Sullivan,2017,312.0
-1159,118,Tam O'Shanter-Sullivan,2018,318.0
-1160,118,Tam O'Shanter-Sullivan,2019,302.0
-1161,118,Tam O'Shanter-Sullivan,2020,318.0
-1162,118,Tam O'Shanter-Sullivan,2021,279.0
-1163,118,Tam O'Shanter-Sullivan,2022,375.0
-1164,118,Tam O'Shanter-Sullivan,2023,394.0
-1165,118,Tam O'Shanter-Sullivan,2024,342.0
-1166,119,Wexford/Maryvale,2014,587.0
-1167,119,Wexford/Maryvale,2015,569.0
-1168,119,Wexford/Maryvale,2016,502.0
-1169,119,Wexford/Maryvale,2017,555.0
-1170,119,Wexford/Maryvale,2018,554.0
-1171,119,Wexford/Maryvale,2019,575.0
-1172,119,Wexford/Maryvale,2020,527.0
-1173,119,Wexford/Maryvale,2021,577.0
-1174,119,Wexford/Maryvale,2022,638.0
-1175,119,Wexford/Maryvale,2023,743.0
-1176,119,Wexford/Maryvale,2024,841.0
+1155,118,Tam OShanter-Sullivan,2014,273.0
+1156,118,Tam OShanter-Sullivan,2015,281.0
+1157,118,Tam OShanter-Sullivan,2016,264.0
+1158,118,Tam OShanter-Sullivan,2017,312.0
+1159,118,Tam OShanter-Sullivan,2018,318.0
+1160,118,Tam OShanter-Sullivan,2019,302.0
+1161,118,Tam OShanter-Sullivan,2020,318.0
+1162,118,Tam OShanter-Sullivan,2021,279.0
+1163,118,Tam OShanter-Sullivan,2022,375.0
+1164,118,Tam OShanter-Sullivan,2023,394.0
+1165,118,Tam OShanter-Sullivan,2024,342.0
+1166,119,WexfordMaryvale,2014,587.0
+1167,119,WexfordMaryvale,2015,569.0
+1168,119,WexfordMaryvale,2016,502.0
+1169,119,WexfordMaryvale,2017,555.0
+1170,119,WexfordMaryvale,2018,554.0
+1171,119,WexfordMaryvale,2019,575.0
+1172,119,WexfordMaryvale,2020,527.0
+1173,119,WexfordMaryvale,2021,577.0
+1174,119,WexfordMaryvale,2022,638.0
+1175,119,WexfordMaryvale,2023,743.0
+1176,119,WexfordMaryvale,2024,841.0
 1177,120,Clairlea-Birchmount,2014,607.0
 1178,120,Clairlea-Birchmount,2015,587.0
 1179,120,Clairlea-Birchmount,2016,555.0
@@ -1429,39 +1429,39 @@
 1427,146,Malvern East,2022,294.0
 1428,146,Malvern East,2023,324.0
 1429,146,Malvern East,2024,308.0
-1430,147,L'Amoreaux West,2014,179.0
-1431,147,L'Amoreaux West,2015,191.0
-1432,147,L'Amoreaux West,2016,200.0
-1433,147,L'Amoreaux West,2017,239.0
-1434,147,L'Amoreaux West,2018,225.0
-1435,147,L'Amoreaux West,2019,250.0
-1436,147,L'Amoreaux West,2020,205.0
-1437,147,L'Amoreaux West,2021,195.0
-1438,147,L'Amoreaux West,2022,219.0
-1439,147,L'Amoreaux West,2023,288.0
-1440,147,L'Amoreaux West,2024,296.0
-1441,148,East L'Amoreaux,2014,176.0
-1442,148,East L'Amoreaux,2015,200.0
-1443,148,East L'Amoreaux,2016,167.0
-1444,148,East L'Amoreaux,2017,174.0
-1445,148,East L'Amoreaux,2018,187.0
-1446,148,East L'Amoreaux,2019,220.0
-1447,148,East L'Amoreaux,2020,192.0
-1448,148,East L'Amoreaux,2021,144.0
-1449,148,East L'Amoreaux,2022,205.0
-1450,148,East L'Amoreaux,2023,228.0
-1451,148,East L'Amoreaux,2024,238.0
-1452,149,Parkwoods-O'Connor Hills,2014,135.0
-1453,149,Parkwoods-O'Connor Hills,2015,138.0
-1454,149,Parkwoods-O'Connor Hills,2016,144.0
-1455,149,Parkwoods-O'Connor Hills,2017,192.0
-1456,149,Parkwoods-O'Connor Hills,2018,135.0
-1457,149,Parkwoods-O'Connor Hills,2019,142.0
-1458,149,Parkwoods-O'Connor Hills,2020,131.0
-1459,149,Parkwoods-O'Connor Hills,2021,139.0
-1460,149,Parkwoods-O'Connor Hills,2022,160.0
-1461,149,Parkwoods-O'Connor Hills,2023,232.0
-1462,149,Parkwoods-O'Connor Hills,2024,213.0
+1430,147,LAmoreaux West,2014,179.0
+1431,147,LAmoreaux West,2015,191.0
+1432,147,LAmoreaux West,2016,200.0
+1433,147,LAmoreaux West,2017,239.0
+1434,147,LAmoreaux West,2018,225.0
+1435,147,LAmoreaux West,2019,250.0
+1436,147,LAmoreaux West,2020,205.0
+1437,147,LAmoreaux West,2021,195.0
+1438,147,LAmoreaux West,2022,219.0
+1439,147,LAmoreaux West,2023,288.0
+1440,147,LAmoreaux West,2024,296.0
+1441,148,East LAmoreaux,2014,176.0
+1442,148,East LAmoreaux,2015,200.0
+1443,148,East LAmoreaux,2016,167.0
+1444,148,East LAmoreaux,2017,174.0
+1445,148,East LAmoreaux,2018,187.0
+1446,148,East LAmoreaux,2019,220.0
+1447,148,East LAmoreaux,2020,192.0
+1448,148,East LAmoreaux,2021,144.0
+1449,148,East LAmoreaux,2022,205.0
+1450,148,East LAmoreaux,2023,228.0
+1451,148,East LAmoreaux,2024,238.0
+1452,149,Parkwoods-OConnor Hills,2014,135.0
+1453,149,Parkwoods-OConnor Hills,2015,138.0
+1454,149,Parkwoods-OConnor Hills,2016,144.0
+1455,149,Parkwoods-OConnor Hills,2017,192.0
+1456,149,Parkwoods-OConnor Hills,2018,135.0
+1457,149,Parkwoods-OConnor Hills,2019,142.0
+1458,149,Parkwoods-OConnor Hills,2020,131.0
+1459,149,Parkwoods-OConnor Hills,2021,139.0
+1460,149,Parkwoods-OConnor Hills,2022,160.0
+1461,149,Parkwoods-OConnor Hills,2023,232.0
+1462,149,Parkwoods-OConnor Hills,2024,213.0
 1463,150,Fenside-Parkwoods,2014,236.0
 1464,150,Fenside-Parkwoods,2015,231.0
 1465,150,Fenside-Parkwoods,2016,239.0
