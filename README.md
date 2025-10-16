@@ -194,13 +194,13 @@ While the raw error (MAE) is higher for individual neighbourhoods, the MAPE of 1
 
 **Actual Crimes vs. Predicted Crimes for 2024 with MAPE**
 
-![Actual Crimes vs. Predicted Crimes for 2024 with MAPE](Actual_Crimes_vs._Predicted_Crimes_for_2024_with_MAPE.png)
+![Actual Crimes vs. Predicted Crimes for 2024 with MAPE](/img/Actual_Crimes_vs._Predicted_Crimes_for_2024_with_MAPE.png)
 
 [Tableau Dashboard](https://public.tableau.com/views/ActualCrimesvs_PredictedCrimesfor2024withMAPE/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 **Crime Volume Trend Over Time in Toronto (Top 3 Neighbourhoods)**
 
-![Crime Volume Trend Over Time in Toronto (Top 3 Neighbourhoods)](Crime_Volume_Trend_Over_Time_in_Toronto_(Top_3_Neighbourhoods).png)
+![Crime Volume Trend Over Time in Toronto (Top 3 Neighbourhoods)](/img/Crime_Volume_Trend_Over_Time_in_Toronto_(Top_3_Neighbourhoods).png)
 
 [Tableau Dashboard](https://public.tableau.com/views/CrimeVolumeTrendOverTimeinTorontoTop3Neighbourhoods/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
