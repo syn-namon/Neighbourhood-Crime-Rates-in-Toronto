@@ -31,12 +31,12 @@ Python
 
 ### Libraries Used:
 
-Numpy: matrix operations
-Pandas: data analysis
-Matplotlib: creating graphs and plots
-Plotly: creating graphs and plots
-Seaborn: enhancing matplotlib plots
-Pmdarima: the Autoregressive Integrated Moving Average (ARIMA) model for predicting analysis
+- Numpy: matrix operations
+- Pandas: data analysis
+- Matplotlib: creating graphs and plots
+- Plotly: creating graphs and plots
+- Seaborn: enhancing matplotlib plots
+- Pmdarima: the Autoregressive Integrated Moving Average (ARIMA) model for predicting analysis
 
 ### Other tools:
 
